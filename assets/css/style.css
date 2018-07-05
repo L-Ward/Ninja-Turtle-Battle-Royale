@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin-bottom: 5px;
 }
 
 body {
@@ -12,13 +13,6 @@ body {
     background-color: black;
     color: #8dc34a;
     text-shadow: 2px 2px black;
-}
-
-nav {
-    font-family: 'Paytone One', sans-serif;
-    text-align: center;
-    color: #8dc34a;
-    margin-bottom: 30px;
 }
 
 .container {
@@ -66,17 +60,12 @@ nav {
     border: 1px solid #ef9825;
 }
 
-.player {
-    max-height: auto;
-    margin: 5px 5px;
+.combat-log {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Paytone One', sans-serif;
+    min-height: 100px;
+    width: 75%;
+    text-align: center;
 }
-
-.npc {
-    max-height: auto;
-    margin: 5px 5px;
-}
-
-.display {
-    margin: 5px 5px;
-}
-
