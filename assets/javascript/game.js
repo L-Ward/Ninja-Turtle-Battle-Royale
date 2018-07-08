@@ -111,7 +111,7 @@ $(document).ready(function () {
         var heroPopUp = $(document.createElement("div")).addClass("container pop-up");
         $("body").append(heroPopUp);
         //creating and appending title for heroPopUp screen
-        var heroHeading = $(document.createElement("div")).addClass("row justify-content-center");
+        var heroHeading = $("<div>").addClass("row justify-content-center");
         var heading = $(document.createElement("h1")).addClass("col-xs-12 header-text").text(title);
         $(heroPopUp).append(heroHeading);
         $(heroHeading).append(heading);
